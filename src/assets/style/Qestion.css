@@ -1,0 +1,27 @@
+.question_wrapper{
+    width: 40%;
+}
+
+.question_title{
+    font-weight: 600;
+    color: #44445C;
+}
+
+.question_list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.question_list>li{
+    color: #4A4A4A;
+    line-height: 1.375rem;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 800px){
+    .question_wrapper{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

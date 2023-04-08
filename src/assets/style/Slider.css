@@ -1,0 +1,62 @@
+.slider_container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.slider_wrapper{
+    max-width: 1070px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    align-items: end;
+}
+
+.slider_content{
+    width: 50%;
+}
+
+h2>span{
+    color: #F5B963;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+h2, h2>span{
+    font-weight: 700;
+    font-size: calc(24px + 16 * (100vw / 1070));
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767px){
+    h2, h2>span{
+        font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1070));
+    }
+}
+
+.second{
+    background-image: url('../img/PurpleWoman.png');
+    margin: 3.75rem 0 6.5rem 0;
+}
+
+.third{
+    position: relative;
+    background-image: url('../img/header.png');
+    margin: 3.75rem 0 6.5rem 0;
+}
+
+.forth{
+    background-image: url('../img/escape.png');
+    margin-top: 3.75rem;
+}

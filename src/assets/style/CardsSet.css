@@ -1,0 +1,36 @@
+.cards_wrapper{
+    position: relative;
+}
+
+.cards_title{
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #22223C;
+    margin: 7.125rem 0 2rem 0;
+}
+
+.cards_content__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards_content{
+    color: #47475F;
+    margin-bottom: 4rem;
+}
+
+.cards_link{
+    color: #4A4A4A;
+    transition: all .3s;
+}
+
+.cards_link:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+.cards_items__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

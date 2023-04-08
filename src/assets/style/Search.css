@@ -1,0 +1,42 @@
+.search_container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    top: -40px;
+    border-radius: 4px;
+    box-shadow: 2px 6px 15px rgba(112, 111, 111, 0.7), 
+    -2px 0 15px rgba(112, 111, 111, 0.7);
+    
+}
+
+.search_wrapper{
+    padding: 30px;
+}
+
+.search_item{
+    color: #565656;
+    background-color: #d6d4d4;
+    border-radius: 4px;
+    padding: 13px 30px;
+
+}
+
+.search_item:not(:last-child){
+    margin-right: 8px;
+}
+
+.search_icon{
+    margin-right: 8px;
+}
+
+.long{
+    padding-right: 9rem;
+}
+
+.color_green{
+    background-color: #233D2C;
+    color: #fff;
+}

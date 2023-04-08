@@ -1,0 +1,36 @@
+.about_content{
+    max-width: 100%;
+}
+
+.about_item{
+    display: flex;
+}
+
+.about_item:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.about_title{
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #1F3D3E;
+    margin-bottom: 2.5rem;
+}
+
+.about_question{
+    color: #000000;
+    font-weight: 600;
+}
+
+.about_text{
+    font-size: 0.875rem;
+    color: #000000;
+}
+
+@media (max-width: 800px){
+    .about_item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

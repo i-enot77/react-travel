@@ -5,5 +5,4 @@ const SearchItem = ({src, content, name, children}) => {
         <Link className={name} to={src}>{children} {content} </Link>
     )
 }
-
 export default SearchItem;

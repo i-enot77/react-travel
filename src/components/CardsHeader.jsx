@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const CardsHeader = ({title, content, link, titleName, wrapper, contentName, linkName, children }) => {
+const CardsHeader = ({content:{title, content, link, titleName, wrapper, contentName, linkName}, children }) => {
     return (
         <div className="wrapper">
             <p className={titleName}>{title}</p>
@@ -12,5 +12,4 @@ const CardsHeader = ({title, content, link, titleName, wrapper, contentName, lin
         </div>
     );
 }
-
 export default CardsHeader;

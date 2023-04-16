@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-
 }
 
 .slider_wrapper{
@@ -24,7 +23,7 @@
 }
 
 .slider_content{
-    width: 50%;
+    width: 55%;
 }
 
 h2>span{

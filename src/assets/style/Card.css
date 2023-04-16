@@ -1,8 +1,12 @@
-.card_item{
+.card_item__wrapper{
     width: 32.5%;
     background-color: #2B3030;
     position: relative;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .card_content{
@@ -12,7 +16,6 @@
 .card_img{
     width: 100%;
     height: 100%;
-    
 }
 
 .heart{
@@ -36,19 +39,6 @@
     color: #E0F2EB;
     font-size: 0.875rem;
     margin: 1.25rem 0 1.5rem 0;
-}
-
-.card_reviews{
-    display: flex;
-}
-
-.card_reviews__wrapper{
-    margin-right: 10px;
-}
-
-.card_title__wrapper{
-    display: flex;
-    justify-content: space-between;
 }
 
 .price{

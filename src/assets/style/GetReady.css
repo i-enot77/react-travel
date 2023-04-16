@@ -6,6 +6,7 @@
 }
 .wrapper{
     flex: 0 1 40%;
+    padding-right: 1rem;
 }
 
 .getReady_title{
@@ -32,11 +33,6 @@
     transition: all .3s ease-in-out;
 }
 
-.getReady_link:hover{
-    transform: scale(1.2);
-    font-weight: 600;
-}
-
 .getReady_link::after{
     content: '';
     display: inline;
@@ -58,6 +54,7 @@
 
     .wrapper{
         flex: 0 0 100%;
+        padding-right: 0;
     }
 
     .video{

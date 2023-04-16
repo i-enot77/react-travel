@@ -3,165 +3,26 @@ import '../assets/style/FooterItem.css';
 import Button from "./Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { footerItem1, footerItem2, footerItem3, footerItem4, footerItem5 } from "../assets/data/listItem";
 
 const FooterItem = () => {
     return(
     <div className="footer_container">
         <div className="footer_wrapper">
             <ul className="list_wrapper">
-                <ListItem
-                    src={'/'}
-                    content={'About us'}
-                    name={"list_item__gray green"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Our story'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Why us'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'How it works'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'FAQ'}
-                    name={"list_item__gray"}
-                />
+                {footerItem1.map((item) => <ListItem content={item}/>)}
             </ul>
-
             <ul className="list_wrapper">
-                <ListItem
-                    src={'/'}
-                    content={'Our cabins'}
-                    name={"list_item__gray green"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Acacia Retreat'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Golden Hideaway'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Oak Treehouse'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Blue Lagoon'}
-                    name={"list_item__gray"}
-                />
+                {footerItem2.map((item) => <ListItem content={item}/>)}
             </ul>
-
             <ul className="list_wrapper">
-                <ListItem
-                    src={'/'}
-                    content={'Get inspired'}
-                    name={"list_item__gray green"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Explore nature'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Hiking trails'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Swimming'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Fishing'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Relax and re-rest'}
-                    name={"list_item__gray"}
-                />
+                {footerItem3.map((item) => <ListItem content={item}/>)}
             </ul>
-
             <ul className="list_wrapper">
-                <ListItem
-                    src={'/'}
-                    content={'Great food and drink'}
-                    name={"list_item__gray green"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Pubs'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Resturants'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Food markets'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Picnics'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'For you and yours'}
-                    name={"list_item__gray"}
-                />
+                {footerItem4.map((item) => <ListItem content={item}/>)}
             </ul> 
-
             <ul className="list_wrapper">
-                <ListItem
-                    src={'/'}
-                    content={'Support'}
-                    name={"list_item__gray green"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Help'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Contact us'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Privacy Policy'}
-                    name={"list_item__gray"}
-                    
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Terms of Service'}
-                    name={"list_item__gray"}
-                />
-                <ListItem
-                    src={'/'}
-                    content={'Complaints Policy'}
-                    name={"list_item__gray"}
-                />
+                {footerItem5.map((item) => <ListItem content={item}/>)}
             </ul>
         </div>
             <div className="footer_wrapper">
@@ -188,9 +49,7 @@ const FooterItem = () => {
                     <FontAwesomeIcon className="media" icon={faTwitter} />
                 </div>
             </div>
-        
     </div>
     )
 }
-
 export default FooterItem;

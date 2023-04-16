@@ -1,0 +1,13 @@
+.card_reviews{
+    display: flex;
+    padding: 0 0 18px 18px;
+}
+
+.card_reviews__wrapper{
+    margin-right: 10px;
+}
+
+.card_title__wrapper{
+    display: flex;
+    justify-content: space-between;
+}

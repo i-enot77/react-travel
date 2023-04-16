@@ -29,7 +29,7 @@
     font-weight: 600;
 }
 
-.cards_items__wrapper{
+.cards_items{
     width: 100%;
     display: flex;
     justify-content: space-between;

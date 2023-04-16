@@ -1,6 +1,6 @@
 import '../assets/style/Qestion.css';
 
-const Question = ({title, item1, item2}) => {
+const Question = ({question: {title, item1, item2}}) => {
     return (
        <div className="question_wrapper">
             <p className="question_title">{title}</p>
@@ -11,5 +11,4 @@ const Question = ({title, item1, item2}) => {
        </div> 
     )
 }
-
 export default Question;

@@ -37,17 +37,6 @@ ul{
     text-transform: uppercase;
 }
 
-.navbar>.item{
-    transition: all .3s  ease-in-out;
-}
-
-.navbar>.item:hover{
-    transform: scale(1.2);
-}
-
-.list_item:hover{
-    font-weight: 600;
-}
 .logo{
     color: #1A3724;
     font-weight: 800;

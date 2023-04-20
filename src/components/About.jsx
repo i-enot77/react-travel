@@ -1,4 +1,3 @@
-import Button from "./Button";
 import Question from "./Question";
 import '../assets/style/About.css';
 import { questions } from "../assets/data/question";
@@ -10,7 +9,6 @@ const About = () => {
 
             {questions.map((question) => <div className="about_item">
             <Question question={question}/>
-            <Button btnName={"about_btn"} content={"About our cabins"}/>
             </div>)}
 
             <p className="about_question">Still have a question?</p>

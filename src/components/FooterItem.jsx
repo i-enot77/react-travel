@@ -34,8 +34,9 @@ const FooterItem = () => {
                     <input type="text" placeholder="james@thegaintpeach.com" />
                     <Button
                         btnName={"footer_btn btn"}
-                        content={"Join the mailing list"}
-                    />
+                    >
+                        Join the mailing list
+                    </Button>
                 </form>
             </div>
 

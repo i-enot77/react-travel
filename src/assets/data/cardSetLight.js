@@ -2,7 +2,7 @@ import card_01 from '../img/cardSet_01.png';
 import card_02 from '../img/cardSet_02.png';
 import card_03 from '../img/cardSet_03.png';
 
-export const cardHeader2 = [{
+export const cardHeaderLight = [{
     title: "Inspiration for your next getaway",
     content: "We’ve curated some amazing experiences to help you find your next getaway.",
     link: "View all experiences",
@@ -12,7 +12,7 @@ export const cardHeader2 = [{
     linkName: "cards_link"
 }];
 
-export const cardSet2 = [{
+export const cardSetLight = [{
     name: "card_item__wrapper light",
     imgSrc: card_01,
     destination: "For those who love",

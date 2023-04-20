@@ -1,14 +1,17 @@
 import '../assets/style/Qestion.css';
+import Button from "./Button";
 
-const Question = ({question: {title, item1, item2}}) => {
+const Question = ({question: {title, items}}) => {
     return (
+        <>
        <div className="question_wrapper">
             <p className="question_title">{title}</p>
             <ul className='question_list'>
-                <li>{item1}</li>
-                <li>{item2}</li>
+                {items.map((item) => <li>{item}</li>)}
             </ul>
        </div> 
+       <Button btnName={"about_btn"}>{title}</Button>
+       </>
     )
 }
 export default Question;

@@ -2,7 +2,7 @@ import card_01 from '../img/card_01.png';
 import card_02 from '../img/card_02.png';
 import card_03 from '../img/card_03.png';
 
-export const cardHeader1 = [{
+export const cardHeader = [{
     title: "Discover our idyllic countryside cabins",
     content: "Fully equipped kitchen and bathroom with plenty of walking and cycling routes to explore.",
     link: "View all cabins",
@@ -12,7 +12,7 @@ export const cardHeader1 = [{
     linkName: "cards_link"
 }];
 
-export const cardSet1 = [{
+export const cardSet = [{
     name: "card_item",
     imgSrc: card_01,
     destination: "Hampshire · England",

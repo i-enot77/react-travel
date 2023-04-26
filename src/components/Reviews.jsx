@@ -3,15 +3,12 @@ import { faStar, faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../assets/style/Reviews.css';
 
 const Reviews = ({reviews}) => {
+    const icons = [faStar, faStar, faStar, faStar, faStar];
         return (
             <div className='card_reviews__item'>
             <div className="card_reviews">
                 <div className="card_reviews__wrapper">
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
+                {icons.map((item) => <FontAwesomeIcon icon={item}/>)}
                 </div>
                 <p>{reviews}</p>
             </div>

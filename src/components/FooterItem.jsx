@@ -1,29 +1,14 @@
-import ListItem from "./ListItem";
+import UlItem from "./UlItem";
 import '../assets/style/FooterItem.css';
 import Button from "./Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { footerItem1, footerItem2, footerItem3, footerItem4, footerItem5 } from "../assets/data/listItem";
 
 const FooterItem = () => {
     return(
     <div className="footer_container">
         <div className="footer_wrapper">
-            <ul className="list_wrapper">
-                {footerItem1.map((item) => <ListItem content={item}/>)}
-            </ul>
-            <ul className="list_wrapper">
-                {footerItem2.map((item) => <ListItem content={item}/>)}
-            </ul>
-            <ul className="list_wrapper">
-                {footerItem3.map((item) => <ListItem content={item}/>)}
-            </ul>
-            <ul className="list_wrapper">
-                {footerItem4.map((item) => <ListItem content={item}/>)}
-            </ul> 
-            <ul className="list_wrapper">
-                {footerItem5.map((item) => <ListItem content={item}/>)}
-            </ul>
+            <UlItem/>
         </div>
             <div className="footer_wrapper">
                 <div className="footer_sign__content">
